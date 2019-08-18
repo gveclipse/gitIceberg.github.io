@@ -1,4 +1,84 @@
-h1 {
-  color:red;
-  font-size:18px;
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Open sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #000;
+  min-width: 1040px;
+}
+
+.first-block {
+  background-image: url("../img/background.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.menu-requirements li {
+	margin-left:30px;
+	float:left;
+	list-style:none;
+	text-transform: uppercase;
+}
+
+.main-navigation {
+	width: 1040px;
+  	margin: 0 auto;
+}
+
+.title-form-block {
+	width: 1020px;
+  	margin: 0 auto;
+
+}
+
+.main-navigation .menu-requirements a {
+	text-decoration: none;	
+}
+
+.main-navigation .site-navigation li {
+	list-style:none;
+}
+
+.main-navigation .main-menu {
+	list-style:none;
+}
+
+.main-navigation .main-menu a {
+	text-decoration: none;	
+}
+
+.number {
+    font-size:10px;
+}
+
+.form {
+	text-align:center;
+}
+
+.btn {
+	margin:20px;
+	padding:20px;
+	background-color: #00B5FF;
+	color:white;
+	border-radius:30px;
+	height:49px;
+	width:200px;
+	font-weight:bold;
+}
+
+.contacts b {
+	font-size:20px;	
+}
+
+.contacts {
+	text-align:right;
+}
+
+.header-title {
+	text-align:center;
 }
