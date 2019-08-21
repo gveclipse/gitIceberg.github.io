@@ -1,14 +1,162 @@
+@font-face {
+font-family: 'Gotham Pro';
+src: url('../fonts/GothamPro-LightItalic.eot');
+src: url('../fonts/GothamPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+url('../fonts/GothamPro-LightItalic.woff2') format('woff2'),
+url('../fonts/GothamPro-LightItalic.woff') format('woff'),
+url('../fonts/GothamPro-LightItalic.ttf') format('truetype');
+font-weight: 300;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'Gotham Pro';
+src: url('../fonts/GothamPro-Bold.eot');
+src: url('../fonts/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+url('../fonts/GothamPro-Bold.woff2') format('woff2'),
+url('../fonts/GothamPro-Bold.woff') format('woff'),
+url('../fonts/GothamPro-Bold.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+src: url('../fonts/GothamPro-MediumItalic.eot');
+src: url('../fonts/GothamPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+url('../fonts/GothamPro-MediumItalic.woff2') format('woff2'),
+url('../fonts/GothamPro-MediumItalic.woff') format('woff'),
+url('../fonts/GothamPro-MediumItalic.ttf') format('truetype');
+font-weight: 500;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'Gotham Pro';
+src: url('../fonts/GothamPro.eot');
+src: url('../fonts/GothamPro.eot?#iefix') format('embedded-opentype'),
+url('../fonts/GothamPro.woff2') format('woff2'),
+url('../fonts/GothamPro.woff') format('woff'),
+url('../fonts/GothamPro.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Gotham Pro';
+src: url('../fonts/GothamPro-BoldItalic.eot');
+src: url('../fonts/GothamPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+url('../fonts/GothamPro-BoldItalic.woff2') format('woff2'),
+url('../fonts/GothamPro-BoldItalic.woff') format('woff'),
+url('../fonts/GothamPro-BoldItalic.ttf') format('truetype');
+font-weight: bold;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'Gotham Pro';
+src: url('../fonts/GothamPro-Black.eot');
+src: url('../fonts/GothamPro-Black.eot?#iefix') format('embedded-opentype'),
+url('../fonts/GothamPro-Black.woff2') format('woff2'),
+url('../fonts/GothamPro-Black.woff') format('woff'),
+url('../fonts/GothamPro-Black.ttf') format('truetype');
+font-weight: 900;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Gotham Pro Narrow';
+src: url('../fonts/GothamProNarrow-Medium.eot');
+src: url('../fonts/GothamProNarrow-Medium.eot?#iefix') format('embedded-opentype'),
+url('../fonts/GothamProNarrow-Medium.woff2') format('woff2'),
+url('../fonts/GothamProNarrow-Medium.woff') format('woff'),
+url('../fonts/GothamProNarrow-Medium.ttf') format('truetype');
+font-weight: 500;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Gotham Pro';
+src: url('../fonts/GothamPro-Italic.eot');
+src: url('../fonts/GothamPro-Italic.eot?#iefix') format('embedded-opentype'),
+url('../fonts/GothamPro-Italic.woff2') format('woff2'),
+url('../fonts/GothamPro-Italic.woff') format('woff'),
+url('../fonts/GothamPro-Italic.ttf') format('truetype');
+font-weight: normal;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'Gotham Pro';
+src: url('../fonts/GothamPro-Light.eot');
+src: url('../fonts/GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+url('../fonts/GothamPro-Light.woff2') format('woff2'),
+url('../fonts/GothamPro-Light.woff') format('woff'),
+url('../fonts/GothamPro-Light.ttf') format('truetype');
+font-weight: 300;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Gotham Pro Narrow';
+src: url('../fonts/GothamProNarrow-Bold.eot');
+src: url('../fonts/GothamProNarrow-Bold.eot?#iefix') format('embedded-opentype'),
+url('../fonts/GothamProNarrow-Bold.woff2') format('woff2'),
+url('../fonts/GothamProNarrow-Bold.woff') format('woff'),
+url('../fonts/GothamProNarrow-Bold.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Gotham Pro';
+src: url('../fonts/GothamPro-Medium.eot');
+src: url('../fonts/GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
+url('../fonts/GothamPro-Medium.woff2') format('woff2'),
+url('../fonts/GothamPro-Medium.woff') format('woff'),
+url('../fonts/GothamPro-Medium.ttf') format('truetype');
+font-weight: 500;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Gotham Pro';
+src: url('../fonts/GothamPro-BlackItalic.eot');
+src: url('../fonts/GothamPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+url('../fonts/GothamPro-BlackItalic.woff2') format('woff2'),
+url('../fonts/GothamPro-BlackItalic.woff') format('woff'),
+url('../fonts/GothamPro-BlackItalic.ttf') format('truetype');
+font-weight: 900;
+font-style: italic;
+}
+
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+backface-visibility: hidden;
+}
+
+
 
 body {
   margin: 0;
   padding: 0;
 
-  font-family: "Open sans", Arial, sans-serif;
+  font-family: "Gotham Pro", Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-weight: 500;
   color: #000;
   min-width: 1040px;
+}
+
+a {
+	color:inherit;
+}
+
+
+input:focus {
+	outline:none;
 }
 
 .first-block {
@@ -18,6 +166,37 @@ body {
   background-size: cover;
 }
 
+.main-nav a {
+	text-decoration: none;
+
+}
+
+.menu-requirements a {
+	text-decoration: none;
+}
+
+.menu-products {
+	list-style:none;
+}
+
+.menu-products a {
+	text-decoration: none;
+}
+
+.dropdown {
+	display:none;
+	list-style:none;
+	text-decoration: none;
+}
+
+.menu-products__trigger .dropdown:hover a {
+	display:block;
+}
+
+.dropdown a{
+	text-decoration: none;
+}
+
 .menu-requirements li {
 	margin-left:30px;
 	float:left;
@@ -25,9 +204,24 @@ body {
 	text-transform: uppercase;
 }
 
-.main-navigation {
-	width: 1040px;
-  	margin: 0 auto;
+.menu-requirements a, .main-nav a, .menu-products__item, .menu-products__trigger{
+	display:inline-block;
+	padding:10px 0;
+	margin-right: 10px;
+}
+
+.menu-requirements a:last-child, .main-nav:last-child, .menu-products__trigger {
+	margin-right: 0;
+}
+.menu-products__trigger {
+	margin-right: 0;
+}
+
+
+.container {
+	width: 1080px;
+	max-width:100%;
+	margin: 0 auto;
 }
 
 .title-form-block {
@@ -60,15 +254,31 @@ body {
 	text-align:center;
 }
 
+.col-4 {
+ width:24%;
+ margin-right:2%;
+ border: 1px solid black;
+}
+
+.col-4:last-child {
+	margin-right:0;
+}
+
 .btn {
-	margin:20px;
-	padding:20px;
+	box-sizing:border-box;
+	
+	padding:40px;
 	background-color: #00B5FF;
-	color:white;
-	border-radius:30px;
+	color: white;
+	border-radius:60px;
 	height:49px;
-	width:200px;
-	font-weight:bold;
+	width:300px;
+	max-width:100%;
+	font-weight: bold;
+}
+
+.category a , .features a {
+	text-decoration: none;	
 }
 
 .contacts b {
@@ -82,3 +292,151 @@ body {
 .header-title {
 	text-align:center;
 }
+
+.flex-row {
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	align-items:center;
+}
+
+.footer {
+	background-color: grey;
+	padding-top:40px;
+}
+
+.copyright {
+	margin-top: 20px;
+	background-color:black;
+	color:white;
+}
+
+.flex-row + .flex-row {
+	margin-top: 20px;
+}
+
+.logo img {
+	width:54px;
+}
+.logo__title {
+	display:block;
+	text-decoration: none;
+	font-weight: 300;
+	margin-left:10px;
+	max-width:100px;
+	line-height: 1.4;
+
+}
+
+.logo a {
+	display:flex;
+	text-decoration: none;
+	align-items:flex-end;
+}
+
+.contacts {
+	display:flex;
+	flex-direction:column;
+	justify-content: space-between;
+	align-items:center;
+}
+
+.header-title__main {
+	text-transform:uppercase;
+}
+
+.page-title {
+	line-height: 1.4;
+}
+
+.title p {
+	font-weight:300;
+	font-size:24px;
+}
+
+.form {
+width: 360px;
+box-shadow: 0px 0px 8px #5C26A4,0px 0px 8px #5C26A4/ glow /, 6px 6px 8px #5C26A4/* drop shadow*/;
+background-color: #FFFFFF;
+border-radius: 14px;
+position: relative;
+padding:40px;
+margin:40px 0;
+}
+
+.form__title {
+  line-height:1.2;
+  margin-bottom: 20px;
+}
+.form__title-middle{
+	font-size:24px;
+	color:#00B5FF;
+
+}
+.form__title-top {
+	font-weight:300;
+	font-size:18px;
+	
+}
+
+.form__title-bottom {
+	font-size:18px;
+}
+
+.form__input {
+	box-sizing:border-box;
+	background-color:#f2f3f8;
+	border: none;
+	padding: 20px;
+	border-radius:30px;
+	margin-bottom: 10px;
+	width:100%;
+}
+
+.pda{
+	display:block;
+	padding-left:40px;
+	font-weight:300;
+	position:relative;
+	margin:20px;
+	line-height:1.4;
+	text-align:left;
+	cursor:pointer;
+}
+
+#pda-checkbox {
+	display:none;
+}
+
+.pda::before ,
+.pda::after {
+	content:"";
+	display:block;
+	position:absolute;
+}
+
+.pda::before {
+	border: 2px solid #ccc;
+  width:20px;
+  height:20px;
+  left:0;
+  top:0;
+  border-radius:10px;
+}
+
+.pda::after {
+	width:20px;
+	height:10px;
+	border-left:2px solid black;
+	border-bottom:2px solid black;
+	transform:rotate(-45deg);
+	left:2px;
+  top:0;
+  opacity:0;
+  transition:opacity 0.3s ease;
+}
+
+#pda-checkbox:checked + .pda::after {
+	opacity:1;
+}
+
