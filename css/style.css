@@ -21,6 +21,7 @@ font-style: normal;
 }
 
 @font-face {
+font-family: 'Gotham Pro';
 src: url('../fonts/GothamPro-MediumItalic.eot');
 src: url('../fonts/GothamPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
 url('../fonts/GothamPro-MediumItalic.woff2') format('woff2'),
