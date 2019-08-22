@@ -59,7 +59,7 @@
 
                         <div class="contacts">
 
-                            <a href="tel:+78121234567" class="phone"><span class="number">8(800)</span>1234567</a>
+                            <a href="tel:+78121234567" class="phone"><span class="number">8(800)</span>123-45-67</a>
                             <a href="mailto:info@mysite.com" class="mail">info@mysite.com</a>
                             <span class="time">Время работы 09:00-18:00</span>
 
@@ -78,7 +78,7 @@
                    
                         <nav class="flex-row main-navigation">
 
-                            <p>Полиграфия для бизнеса</p>
+                            <span>Полиграфия для бизнеса</span>
 
                             <ul class="menu-products flex-row">
                                 <li><a href="#" class="menu-products__item">Листовки</a></li>
@@ -118,8 +118,10 @@
                 <div class="flex-row">
 
                     <div class="title">
-                        <p>Мы рекламное агентство полного цикла</p>
-                        <h1 class="page-title">Предлагаем весь перечень рекламно-полиграфических услуг</h1>
+                        <p class="title__top">Рекламное агентство полного цикла</p>
+                        <h1 class="page-title"><span>Предлагаем</span><br>весь перечень рекламных <br>и полиграфических услуг</h1>
+
+                        <p>Короткий ёмкий текст-описание преимуществ сотрудничества. 2 строки максимум.</p>
                     </div>
 
 
@@ -137,12 +139,12 @@
                             <input type="tel" class="form__input" placeholder="Ваш телефон" required>
 
                             
-                                <input type="checkbox" id="pda-checkbox">
+                                <input type="checkbox" id="pda-checkbox" checked>
                                 <label for="pda-checkbox" class="pda">Согласен(а) с <a href="#">обработкой песональных
                                 данных</a></label>
                          
 
-                            <input class="btn  btn--primary" type="submit" id="main_form_submit">
+                            <input class="btn  btn--primary" type="submit" id="main_form_submit" value="запросить стоимость">
                         </form>
 
                     </div>
@@ -156,41 +158,41 @@
     </div>
 
 
-    <main class="container">
+    <main class="main">
 
-        <section class="categories">
+        <section class="block categories">
             
             <div class="container">
                 
-                <h2>Или рассчитать стоимость полиграфической продукции самостоятельно</h2>
+                <h2>Или рассчитать стоимость<br> полиграфической продукции самостоятельно</h2>
 
                 <div class="flex-row">
 
-                    <div class="category  col-4">
+                    <div class="catalog shadow-block  col-4">
                         <a href="#">
-                            <img src="" alt="">
-                            <span class="category__title">Листовки</span>
+                            <img src="img/list.jpg" alt="">
+                            <span class="catalog__title">Листовки</span>
                         </a>
                     </div>
 
-                    <div class="category col-4">
+                    <div class="catalog shadow-block col-4">
                         <a href="#">
-                            <img src="" alt="">
-                            <span class="category__title">Буклеты</span>
+                            <img src="img/buk.jpg" alt="">
+                            <span class="catalog__title">Буклеты</span>
                         </a>
                     </div>
 
-                    <div class="category col-4">
+                    <div class="catalog shadow-block col-4">
                         <a href="#">
-                            <img src="" alt="">
-                            <span class="category__title">Брошюры</span>
+                            <img src="img/br.png" alt="">
+                            <span class="catalog__title">Брошюры</span>
                         </a>
                     </div>
 
-                    <div class="category col-4">
+                    <div class="catalog shadow-block col-4">
                         <a href="#">
-                            <img src="" alt="">
-                            <span class="category__title">Каталоги</span>
+                            <img src="img/cat.png" alt="">
+                            <span class="catalog__title">Каталоги</span>
                         </a>
                     </div>
 
@@ -200,62 +202,90 @@
 
         </section>
 
-        <section class="categories">
+        <section class="block advantages">
 
             <div class="container">
 
-                <h2>Преимущества самостоятельного расчета и заказа полиграфической продукции</h2>
+                <h2>Преимущества самостоятельного расчета<br> и заказа полиграфической продукции</h2>
 
-                <div class="flex-row">
+                <div class="flex-row  flex-row--stretch">
 
-                    <div class="category  col-4">
-                        <span class="category__num">1</span>
-                        <span class="category__text">Текст 1</span>
+                    <div class="category shadow-block  col-4">
+
+                        <div class="category__title">
+                            <span class="category__num">1</span>
+                            <span class="category__name">Экономия времени</span>
+                        </div>
+
+                        <div class="category__text">
+                            Нет необходимости лишний раз обращаться к посредникам. Препресс происходит на ваших глазах.
+                        </div>
                     </div>
 
-                    <div class="category  col-4">
-                        <span class="category__num">2</span>
-                        <span class="category__text">Текст 2</span>
+                    <div class="category shadow-block  col-4">
+
+                        <div class="category__title">
+                            <span class="category__num">2</span>
+                            <span class="category__name">Контроль препресса</span>
+                        </div>
+
+                        <div class="category__text">
+                            Вы можете контролировать весь процесс препресса от проверки/создания макета до его отправки в печать.
+                        </div>
                     </div>
 
-                    <div class="category  col-4">
-                        <span class="category__num">3</span>
-                        <span class="category__text">Текст 3</span>
+                    <div class="category shadow-block  col-4">
+
+                        <div class="category__title">
+                            <span class="category__num">3</span>
+                            <span class="category__name">Качество печати</span>
+                        </div>
+
+                        <div class="category__text">
+                            Мы используем новейшее оборудование для цифровой и офсетной печати, что позволяет нам автоматизировать процессы печати.
+                        </div>
                     </div>
 
-                    <div class="category  col-4">
-                        <span class="category__num">4</span>
-                        <span class="category__text">Текст 4</span>
+                    <div class="category shadow-block  col-4">
+
+                        <div class="category__title">
+                            <span class="category__num">4</span>
+                            <span class="category__name">Удобная доставка</span>
+                        </div>
+
+                        <div class="category__text">
+                            Готовый тираж можно забрать из пункта выдачи или мы доставим его по нужному вам адресу, в правильное для вас время.
+                        </div>
                     </div>
 
                 </div>
 
-                <div class="flex-row">
+                <div class="flex-row  flex-row--stretch">
 
-                    <div class="features  col-4">
+                    <div class="features shadow-block  col-4">
                         <a href="#" target="_blank">
-                            <img src="" alt="">
+                            <img src="img/001-team.svg" alt="">
                             <span class="features__item">Как мы работаем</span>
                         </a>
                     </div>
 
-                    <div class="features  col-4">
+                    <div class="features shadow-block  col-4">
                         <a href="#" target="_blank">
-                            <img src="" alt="">
-                            <span class="features__item">Оплата и доставка</span>
+                            <img src="img/007-route.svg" alt="">
+                            <span class="features__item">Оплата и&nbsp;доставка</span>
                         </a>
                     </div>
 
-                    <div class="features  col-4">
+                    <div class="features shadow-block  col-4">
                         <a href="#" target="_blank">
-                            <img src="" alt="">
-                            <span class="features__item">Требования к макетам</span>
+                            <img src="img/004-essay.svg" alt="">
+                            <span class="features__item">Требования к&nbsp;макетам</span>
                         </a>
                     </div>
 
-                    <div class="features  col-4">
+                    <div class="features shadow-block  col-4">
                         <a href="#" target="_blank">
-                            <img src="" alt="">
+                            <img src="img/009-calendar.svg" alt="">
                             <span class="features__item">Правила использования</span>
                         </a>
                     </div>
@@ -265,12 +295,26 @@
 
         </section>
 
-        <section class="contents">
-            <div class="contents-block">
+        <section class="block  contents">
+            <div class="container">
                 <h2>Заголовок</h2>
 
-                <p>Онлайн-типография – удобный вариант надежного партнерства, когда нужно оформить заказ на печать промышленной полиграфии с доставкой, не выходя из офиса. Обращайтесь в Printbroker – быстрый и недорогой интернет-магазин полиграфических услуг. За 30 лет успешной деятельности мы накопили немало знаний и опыта, необходимых для продуктивного сотрудничества с бизнес-заказчиками. В списке наших клиентов более 30 тысяч предприятий Санкт-Петербурга, Москвы и других городов России. Сотни положительных отзывов – лучшая гарантия качества и стабильности производства.</p>
-                <p>Онлайн-типография – удобный вариант надежного партнерства, когда нужно оформить заказ на печать промышленной полиграфии с доставкой, не выходя из офиса. Обращайтесь в Printbroker – быстрый и недорогой интернет-магазин полиграфических услуг. За 30 лет успешной деятельности мы накопили немало знаний и опыта, необходимых для продуктивного сотрудничества с бизнес-заказчиками. В списке наших клиентов более 30 тысяч предприятий Санкт-Петербурга, Москвы и других городов России. Сотни положительных отзывов – лучшая гарантия качества и стабильности производства.</p>
+                <p class="lead">За 30 лет успешной деятельности мы накопили немало знаний и опыта, необходимых для продуктивного сотрудничества с бизнес-заказчиками. В списке наших клиентов более 30 тысяч предприятий Санкт-Петербурга, Москвы и других городов России. Сотни положительных отзывов – лучшая гарантия качества и стабильности производства.</p>
+                <p><img src="img/template.jpg" class="img-right" width="300" alt="">
+                    Онлайн-типография – удобный вариант надежного партнерства, когда нужно оформить заказ на печать промышленной полиграфии с доставкой, не выходя из офиса. Обращайтесь в Printbroker – быстрый и недорогой интернет-магазин полиграфических услуг. За 30 лет успешной деятельности мы накопили немало знаний и опыта, необходимых для продуктивного сотрудничества с бизнес-заказчиками. В списке наших клиентов более 30 тысяч предприятий Санкт-Петербурга, Москвы и других городов России. Сотни положительных отзывов – лучшая гарантия качества и стабильности производства.
+
+                </p>
+
+                <p>                    Онлайн-типография – удобный вариант надежного партнерства, когда нужно оформить заказ на печать промышленной полиграфии с доставкой, не выходя из офиса. Обращайтесь в Printbroker – быстрый и недорогой интернет-магазин полиграфических услуг.
+                </p>
+
+                <h3>Подзаголовок</h3>
+
+                <p><img src="img/template.jpg" class="img-left" width="300" alt="">
+                    Онлайн-типография – удобный вариант надежного партнерства, когда нужно оформить заказ на печать промышленной полиграфии с доставкой, не выходя из офиса. Обращайтесь в Printbroker – быстрый и недорогой интернет-магазин полиграфических услуг. За 30 лет успешной деятельности мы накопили немало знаний и опыта, необходимых для продуктивного сотрудничества с бизнес-заказчиками. В списке наших клиентов более 30 тысяч предприятий Санкт-Петербурга, Москвы и других городов России. Сотни положительных отзывов – лучшая гарантия качества и стабильности производства.
+
+                </p>
+
             </div>
         </section>
 
@@ -280,14 +324,14 @@
     <footer class="footer">
         <div class="container">
 
-            <div class="flex-row">
+            <div class="flex-row  flex-row--start">
                 <div class="col-4">
 
                     <div class="footer-title">
-                        Рекламное агентство полного цикла «АЙСБЕРГ»
+                        Рекламное агентство<br> полного цикла «АЙСБЕРГ»
                     </div>
 
-                    <img src="img/logo-iceberg.svg" width="200" height="50" alt="Логотип агентство полного цикла «АЙСБЕРГ">
+                    <!--<img src="img/logo-iceberg.svg" width="200" height="50" alt="Логотип агентство полного цикла «АЙСБЕРГ">-->
 
                 </div>
 
@@ -295,7 +339,7 @@
 
                     <div class="contacts">
 
-                        <a href="tel:+78121234567" class="phone"><span class="number">8(800)</span>1234567</a>
+                        <a href="tel:+78121234567" class="phone"><span class="number">8(800)</span>123-45-67</a>
                         <a href="mailto:info@mysite.com" class="mail">info@mysite.com</a>
                         <span class="time">Время работы 09:00-18:00</span>
 
@@ -304,24 +348,22 @@
                 </div>
 
                 <div class="col-4">
-                    <nav class="main-nav">
-                        <a href="#" class="main-nav__item  main-nav__item--active">О компании</a>
+                    <nav class="main-nav  main-nav--left">
+                        <a href="#" class="main-nav__item">О компании</a>
                         <a href="#" class="main-nav__item">Услуги</a>
                         <a href="#" class="main-nav__item">Калькулятор</a>
                         <a href="#" class="main-nav__item">Помощь</a>
                         <a href="#" class="main-nav__item">Контакты</a>
-                        <a href="#" class="main-nav__item  main-nav__item--cabinet">Личный кабинет</a>
                     </nav>
                 </div>
 
                 <div class="col-4">
-                    <nav class="main-nav">
-                        <a href="#" class="main-nav__item  main-nav__item--active">О компании</a>
-                        <a href="#" class="main-nav__item">Услуги</a>
-                        <a href="#" class="main-nav__item">Калькулятор</a>
-                        <a href="#" class="main-nav__item">Помощь</a>
-                        <a href="#" class="main-nav__item">Контакты</a>
-                        <a href="#" class="main-nav__item  main-nav__item--cabinet">Личный кабинет</a>
+                    <nav class="main-nav  main-nav--right">
+                        <a href="#" class="main-nav__item">Личный кабинет</a>
+                        <a href="#" class="main-nav__item">Как мы работаем</a>
+                        <a href="#" class="main-nav__item">Оплата и доставка</a>
+                        <a href="#" class="main-nav__item">Требования к макетам</a>
+                        <a href="#" class="main-nav__item">Пункт выдачи заказов</a>
                     </nav>
                 </div>
             </div>
@@ -332,7 +374,7 @@
             <div class="container">
                 <div class="flex-row">
                     <div class="copyright-text">
-                        <p>Copyright 2019 РА Айсберг. Все права защищены.</p>
+                        © 2019, РА Айсберг. Все права защищены.
                     </div>
                     <div class="copyright-text">
                         <a href="#">Пользовательское соглашение</a>
