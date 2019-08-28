@@ -151,6 +151,7 @@
     border: none !important;
     color: #000 !important;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,.1);
+
 }
 
 .social__icon {
@@ -601,13 +602,13 @@ h4, .h4 {
     border-left: 2px solid orange;
     border-bottom: 2px solid orange;
     transform: rotate(-45deg);
-    top: 13px;
+    top: 8px;
     right:15px;
     transition:0.3s;
 }
 
 .panel-heading.in a::after {
-    top: 19px;
+    top: 10px;
     transform: rotate(135deg);
 }
 
@@ -943,8 +944,8 @@ h4, .h4 {
 
 .all_block {
     width: 750px;
-    padding-left: 40px;
-    padding-bottom: 40px;
+    padding-left: 0;
+    padding-bottom: 0;
 }
 
 .order-sidebar {
@@ -997,14 +998,21 @@ h4, .h4 {
 }
 
 .order_block .panel-heading a {
-    font-size: 18px;
+    position: relative;
+
     box-shadow: none;
+    text-decoration: none;
+
+    display: block;
+
 }
 
 .title .left {
-    background: #fdedcc;
+    padding: 10px 20px;
+    font-size: 18px;
+    background: rgba(0, 181, 255, 0.27);
     width: 100%;
-    padding-left: 20px;
+    margin-bottom: 10px;
 }
 
 .title .content {

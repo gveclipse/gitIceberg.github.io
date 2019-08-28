@@ -46,7 +46,7 @@
 .panton_color{margin-right:4px;margin-bottom:4px;cursor:pointer;white-space:nowrap;padding:2px;width:80px;display:inline-block;text-align:center;font-size:14px;color:#fff;}
 .panton_color:hover{color:yellow;}
 .panton_colors_list{background:#fff;padding:10px;border-radius:4px;width:440px;display:inline-block;margin-top:3px;}
-.order_block div.title{background:#f9d5b7;}
+.order_block div.title{background:rgba(0, 181, 255, 0.27);    max-width: 100%;}
 .none {display:none;}
 .params{display: inline-block;}
 .block100 {width:100%; display:inline-block;padding-bottom:5px;}
