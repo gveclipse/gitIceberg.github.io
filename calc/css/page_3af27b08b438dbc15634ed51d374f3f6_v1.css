@@ -1,0 +1,21 @@
+
+
+/* Start:/bitrix/templates/kella/components/bitrix/news.list/products/style.css?1539942920135*/
+div.news-list{word-wrap:break-word;}
+div.news-list img.preview_picture{float:left;margin:0 4px 6px 0;}
+.news-date-time{color:#486DAA;}
+
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/news.detail/templates/.default/style.css?1539952596138*/
+div.news-detail{word-wrap: break-word;}div.news-detail img.detail_picture{float:left;margin:0 8px 6px 1px;}.news-date-time{color:#486DAA;}
+/* End */
+
+
+/* Start:/bitrix/templates/kella/components/bitrix/news.detail/faq/style.css?1539952265138*/
+div.news-detail{word-wrap: break-word;}div.news-detail img.detail_picture{float:left;margin:0 8px 6px 1px;}.news-date-time{color:#486DAA;}
+/* End */
+/* /bitrix/templates/kella/components/bitrix/news.list/products/style.css?1539942920135 */
+/* /bitrix/components/bitrix/news.detail/templates/.default/style.css?1539952596138 */
+/* /bitrix/templates/kella/components/bitrix/news.detail/faq/style.css?1539952265138 */
