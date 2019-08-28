@@ -200,6 +200,10 @@ h2 {
 	margin: 48px 0 36px;
 }
 
+h2:first-child {
+    margin-top: 0;
+}
+
 h3 {
 	font-size: 18px;
 	line-height: 1.4;
@@ -211,6 +215,19 @@ h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.first-block--inner {
+    padding: 40px 0;
+}
+
+.first-block--inner h1,
+.first-block--inner p {
+    margin: 0;
+}
+
+.first-block--inner p {
+    font-size: 18px;
 }
 
 .main-nav a {
@@ -453,7 +470,7 @@ h3 {
 
 .page-title span {
 	font-size: 49px;
-	color: #4dadfe;
+	color: #539ebb;
 	color: #f0f455;
 }
 
@@ -481,6 +498,17 @@ margin:40px 0;
 
 .title {
 	max-width: 600px;
+}
+
+.breadcrumbs {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
 }
 
 .form__title {
@@ -573,7 +601,7 @@ margin:40px 0;
 }
 
 .block {
-	padding: 1px 0 64px;
+	padding: 48px 0 64px;
 }
 
 .advantages {
@@ -701,7 +729,8 @@ margin:40px 0;
 }
 
 .phone {
-	color: #4dadfe;
+	/*color: #539ebb;*/
+    color: #539ebb;
 	font-weight: 700;
 	font-size: 28px;
 	text-decoration: none;
