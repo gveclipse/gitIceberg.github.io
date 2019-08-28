@@ -140,8 +140,10 @@ backface-visibility: hidden;
 
 
 body {
+	position: relative;
+
   margin: 0;
-  padding: 0;
+  padding: 218px 0 0 0;
 
   font-family: "Gotham Pro", Arial, sans-serif;
   font-size: 14px;
@@ -248,7 +250,14 @@ h3 {
 }
 
 .main-header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
 	font-weight: 700;
+	background: #fff;
+	box-shadow: 10px 20px 36px 0 rgba(0, 0, 0, .2);
+	z-index: 10000;
 }
 
 .menu-requirements {
@@ -646,11 +655,12 @@ margin:40px 0;
 }
 
 .catalog a {
+	flex-direction: column;
 	min-height: 100px;
 }
 
 .catalog__title {
-	margin-left: auto;
+	margin: 10px auto 0;
 }
 
 .features img {
@@ -661,10 +671,8 @@ margin:40px 0;
 }
 
 .catalog img {
-	position: absolute;
-	max-width: 110px;
-	left: -20px;
-	top: 14px;
+	position: static;
+	max-height: 110px;
 }
 
 .catalog:nth-child(2) img {
