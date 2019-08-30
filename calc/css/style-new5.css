@@ -943,7 +943,7 @@ h4, .h4 {
 }
 
 .all_block {
-    width: 750px;
+    /*width: 750px;*/
     padding-left: 0;
     padding-bottom: 0;
 }

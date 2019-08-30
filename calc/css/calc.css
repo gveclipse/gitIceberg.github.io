@@ -4,7 +4,7 @@
 #calc div span{font-weight:bold; font-family: Arial;}
 .params select{width:100%;/*border:2px solid #aaa;*/padding:1px;}
 #list_count{width:100px;}
-#calc tr th{font-size:11px;line-height: 1.2;padding:3px 1px;color:#000;width:93px;text-align:center; background: lightgoldenrodyellow;font-family: Arial;}
+#calc tr th{font-size:9px;line-height: 1.2;padding:3px 1px;color:#000;width:75px;text-align:center; background: lightgoldenrodyellow;font-family: Arial;}
 #calc tr td{width:93px;text-align:center;padding:2px 5px 1px 5px;border-top:1px solid #c06c6c;border-bottom:1px solid rgba(0,0,0,0.2);}
 #calc tr:nth-child(2) td{border-top:none;border-bottom:1px solid rgba(0,0,0,0.2);}
 #calc tr:last-of-type td{border-bottom:1px solid #c06c6c;}
@@ -18,12 +18,12 @@
 .product_title{font-size:24px;font-weight:bold;}
 #action_button{/*float:right;*/}
 #calc_button{float:right;background:#eee;border-color:#777;}
-.table-content-class{overflow:auto;max-height:230px;}
+.table-content-class{overflow:auto;}
 .table-content-class tr {background:#fff;}
 #calc_block{display:inline-block;width:60%;margin-bottom:0;}
 .calc_picture{display:inline-block;width:39%;background:#fefefe;vertical-align:top;float:right;padding:2px;}
 #rezult_block{padding:0 5px 0 0;font-family: Verdana, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", sans-serif;}
-.order_block{max-width:750px;}
+/*.order_block{max-width:750px;}*/
 .all_block{font-size:12px;padding-left:16%;}
 .all_block a{font-size:14px;}
 .all_block a:hover{text-decoration:underline;}
@@ -34,7 +34,7 @@
 .content_print .innersmall,
 .content_print .all_block,
 .content_print input{font-size:10px !important;}
-.order_picture{width:100%;display:inline-block;vertical-align:top;max-height:80px;overflow:hidden;}
+.order_picture{width:100%;display:inline-block;vertical-align:top;max-height:120px;overflow:hidden;}
 #a_show_order_picture{cursor:pointer;}
 .block{width:100%;}
 #panton_colors,
@@ -150,6 +150,10 @@ input#noface {
 #calc tr td:nth-child(2),
 #calc tr th:nth-child(2) {
     width: 60px;
+}
+
+#calc tr .w20 {
+    width: 36px !important;
 }
 
 
