@@ -25,10 +25,15 @@ h1 {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .content__col {
     width: 50%;
+}
+
+.content__col--100 {
+    width: 100%;
 }
 
 img {
